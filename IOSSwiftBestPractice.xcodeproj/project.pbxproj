@@ -73,6 +73,8 @@
 		69120C58278854FD005A7420 /* URLOpener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLOpener.swift; sourceTree = "<group>"; };
 		69120C5D2788582C005A7420 /* URLOpenerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLOpenerTests.swift; sourceTree = "<group>"; };
 		69120C5F27886C70005A7420 /* SimpleReact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleReact.swift; sourceTree = "<group>"; };
+		69120C652789826E005A7420 /* ConcurrentQueue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ConcurrentQueue.png; sourceTree = "<group>"; };
+		69120C662789826E005A7420 /* SerialQueue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SerialQueue.png; sourceTree = "<group>"; };
 		698731E327858C9000408F0F /* IOSSwiftBestPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSSwiftBestPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		698731E627858C9000408F0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		698731EF27858C9400408F0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -266,6 +268,8 @@
 		6987321627858DC600408F0F /* MultiThreading */ = {
 			isa = PBXGroup;
 			children = (
+				69120C652789826E005A7420 /* ConcurrentQueue.png */,
+				69120C662789826E005A7420 /* SerialQueue.png */,
 				6987321727858ECB00408F0F /* README.md */,
 				6987321C278592D900408F0F /* Topic_MultiThreading.swift */,
 				6987325A2785C89F00408F0F /* Data */,
