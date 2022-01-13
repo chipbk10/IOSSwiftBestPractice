@@ -147,4 +147,8 @@ final class Topic_MultiThreading: TopicProtocol {
     // Answer 5: use Actor
     private func question_7() {
     }
+    
+    private func question_8() {
+        // how to use mutex: https://www.cocoawithlove.com/blog/2016/06/02/threads-and-mutexes.html        
+    }
 }
