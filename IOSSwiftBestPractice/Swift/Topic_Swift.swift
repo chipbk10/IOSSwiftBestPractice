@@ -14,9 +14,12 @@ final class Topic_Swift: TopicProtocol {
         topic.question1()
     }
     
-    
+    // Question: pros/cons closure vs protocol/delegate
+    // Answer: https://bit.ly/3Gxwjj4
     private func question1() {
         // todo
     }
+    
+    
     
 }

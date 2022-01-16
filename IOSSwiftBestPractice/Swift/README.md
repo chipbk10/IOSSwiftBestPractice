@@ -1,7 +1,7 @@
 ## Swift
 - Todo: 
 - optional, guard, if let, chaining, (force, implicit, try) unwrap 
-- enum vs struct vs class vs actor, protocol & extension & generic
+- enum vs struct vs class vs actor, closure & protocol & extension & generic
 - error handling
 - arc, memory management, retain cycle, memory leak
 - properties (computed, lazy, etc.)

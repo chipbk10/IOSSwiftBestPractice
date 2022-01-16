@@ -1,30 +1,29 @@
-## Multiple Threading
-### GCD
-- An abstraction to help developers write multi-threaded code without manually creating and managing the threads themselves 
-
 ## Questions
 
-1) How to make an asynchronous block become synchronous? Or how to flaten a completion block?
+1) What is GCD?
+- Answer: An abstraction to help developers write multi-threaded code without manually creating and managing the threads themselves
+
+2) How to make an asynchronous block become synchronous? Or how to flaten a completion block?
 - Answer 1: use Semaphore
 - Answer 2: DispatchGroup
 
-2) How to perform a bunch of asynchronous blocks serially? block1 -> block2 -> .... -> block N
+3) How to perform a bunch of asynchronous blocks serially? block1 -> block2 -> .... -> block N
 - Answer 1: recursive approach
 - Answer 2: use Semaphore (like question1)
 
-3) How to limit the number of concurrent blocks?
+4) How to limit the number of concurrent blocks?
 - Answer: use Semaphore
 
-4) How to wait for many concurrent blocks to finish?
+5) How to wait for many concurrent blocks to finish?
 - Answer: use DispatchGroup
 
-5) How to solve readers-writers problem?
+6) How to solve readers-writers problem?
 - Answer: use `.barrier` flag
 
-6) Explain why synchronous dispatch the task to the same serial queue will lead to the app crash?
+7) Explain why synchronous dispatch the task to the same serial queue will lead to the app crash?
 - Answer: the task will be added at the end of the serial queue. Mean while the current thread will be blocked forever, as the task is never executed.
 
-7) How to avoid race conditions?
+8) How to avoid race conditions?
 - Answer 1: use NSLock. However, it can lead to a `deadlock`, when 2 threads might wait for each other to release their locks
 - Answer 2: use Semaphore(1)
 - Answer 3: use SerialQueue
