@@ -19,7 +19,4 @@ final class Topic_Swift: TopicProtocol {
     private func question1() {
         // todo
     }
-    
-    
-    
 }

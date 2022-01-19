@@ -13,6 +13,12 @@ final class Topic_UnitTest: TopicProtocol {
         let topic = Topic_UnitTest()
         topic.question1()
     }
+    
+    // Question: can you suggest a good unit-test method's name?
+    // Answer: test_methodName_returnsInput_whenOutput
+    private func question1() {
+        func test_methodName_returnsInput_whenOutput() { /*....*/ }
+    }
         
     // Question: how to test if our app can open a specific URL?
     // Answer: to open a URL, we have to use `UIApplication.shared`. We have to find away to stub 2 methods `.canOpen()` & `.open(...)`
@@ -25,4 +31,6 @@ final class Topic_UnitTest: TopicProtocol {
         let app = OurApp_ToTestURLOpener(urlOpener: urlOpener, url: url)
         app.tapOnOpenButton()
     }
+    
+    
 }
