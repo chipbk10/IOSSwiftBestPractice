@@ -1,5 +1,5 @@
 ## Questions
-
+- this topic will cover: `http polling` (short vs long & exponential backoff), `push notification`, `websocket`
 
 ## Sources
 - [URLSessionWebSocketTask](https://developer.apple.com/documentation/foundation/urlsessionwebsockettask)
