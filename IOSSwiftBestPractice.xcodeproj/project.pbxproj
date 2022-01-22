@@ -51,6 +51,8 @@
 		696D40B42798AF0A006E0BFA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 696D40B32798AF0A006E0BFA /* README.md */; };
 		696D40B72798AF5D006E0BFA /* Topic_AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696D40B62798AF5D006E0BFA /* Topic_AutoLayout.swift */; };
 		696D40B92798AF89006E0BFA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 696D40B82798AF89006E0BFA /* README.md */; };
+		696D4104279C066F006E0BFA /* Topic_Hybrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696D4103279C066F006E0BFA /* Topic_Hybrid.swift */; };
+		696D4106279C06DC006E0BFA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 696D4105279C06DC006E0BFA /* README.md */; };
 		698731E727858C9000408F0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698731E627858C9000408F0F /* AppDelegate.swift */; };
 		698731F027858C9400408F0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 698731EF27858C9400408F0F /* Assets.xcassets */; };
 		698731FE27858C9500408F0F /* IOSSwiftBestPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698731FD27858C9500408F0F /* IOSSwiftBestPracticeTests.swift */; };
@@ -139,6 +141,8 @@
 		696D40B32798AF0A006E0BFA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		696D40B62798AF5D006E0BFA /* Topic_AutoLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topic_AutoLayout.swift; sourceTree = "<group>"; };
 		696D40B82798AF89006E0BFA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		696D4103279C066F006E0BFA /* Topic_Hybrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topic_Hybrid.swift; sourceTree = "<group>"; };
+		696D4105279C06DC006E0BFA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		698731E327858C9000408F0F /* IOSSwiftBestPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSSwiftBestPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		698731E627858C9000408F0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		698731EF27858C9400408F0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -432,6 +436,15 @@
 			path = AutoLayout;
 			sourceTree = "<group>";
 		};
+		696D4102279C064E006E0BFA /* Hybrid */ = {
+			isa = PBXGroup;
+			children = (
+				696D4103279C066F006E0BFA /* Topic_Hybrid.swift */,
+				696D4105279C06DC006E0BFA /* README.md */,
+			);
+			path = Hybrid;
+			sourceTree = "<group>";
+		};
 		698731DA27858C9000408F0F = {
 			isa = PBXGroup;
 			children = (
@@ -460,6 +473,7 @@
 				69120C3427883A94005A7420 /* Architecture */,
 				696D40A127984C96006E0BFA /* DependencyManager */,
 				696D405027941D3E006E0BFA /* DesignPatterns */,
+				696D4102279C064E006E0BFA /* Hybrid */,
 				6987321627858DC600408F0F /* MultiThreading */,
 				696D405527942788006E0BFA /* Network */,
 				696D40682795685D006E0BFA /* Objective-C */,
@@ -649,6 +663,7 @@
 				696D4057279427AA006E0BFA /* README.md in Resources */,
 				696D408A27982AC8006E0BFA /* README.md in Resources */,
 				696D40B42798AF0A006E0BFA /* README.md in Resources */,
+				696D4106279C06DC006E0BFA /* README.md in Resources */,
 				696D40A527984D33006E0BFA /* README.md in Resources */,
 				696D40732796D238006E0BFA /* README.md in Resources */,
 				696D40AA2798ABFA006E0BFA /* README.md in Resources */,
@@ -697,6 +712,7 @@
 				698732632785C92500408F0F /* AsyncSerialQueue.swift in Sources */,
 				696D40A327984D20006E0BFA /* Topic_DependencyManager.swift in Sources */,
 				69120C5227884B03005A7420 /* Topic_UnitTest.swift in Sources */,
+				696D4104279C066F006E0BFA /* Topic_Hybrid.swift in Sources */,
 				696D409B27982C2C006E0BFA /* CharlesProxy.swift in Sources */,
 				696D407027957240006E0BFA /* Topic_Storage.swift in Sources */,
 				69120C3F27884091005A7420 /* MVVM_Base.swift in Sources */,
