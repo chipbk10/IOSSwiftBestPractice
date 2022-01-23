@@ -2,6 +2,7 @@
 - this topic will cover: `http polling` (short vs long & exponential backoff), `push notification`, `websocket`
 
 ## Sources
+- [Free Public API](https://github.com/public-apis/public-apis)
 - [URLSessionWebSocketTask](https://developer.apple.com/documentation/foundation/urlsessionwebsockettask)
 
 ## Further Reading
