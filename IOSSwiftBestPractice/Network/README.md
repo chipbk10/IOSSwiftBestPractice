@@ -11,7 +11,7 @@
 - credit to AppSector [How to use URLSessionWebSocketTask in Swift](https://bit.ly/3KijaN2)
 - [Introduction to JSON Web Tokens](https://jwt.io/introduction/)
 - [Authentication vs Authorization](https://bit.ly/34JBMVJ)
-- [Idempotency](https://stripe.com/docs/idempotency)
+- [Idempotency](https://stripe.com/docs/idempotency), [Idempotent Request](https://stripe.com/docs/api/idempotent_requests)
 
 ## Further Watching
 - [Advances in Networking, Part1 - WWDC 2019](https://developer.apple.com/videos/play/wwdc2019/712/)
