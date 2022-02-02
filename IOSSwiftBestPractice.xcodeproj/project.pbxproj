@@ -69,6 +69,8 @@
 		698732692785EB8600408F0F /* IdentityMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698732682785EB8600408F0F /* IdentityMap.swift */; };
 		6987326D2786E20000408F0F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6987326C2786E20000408F0F /* README.md */; };
 		6987326F2786E21300408F0F /* Topic_Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6987326E2786E21300408F0F /* Topic_Swift.swift */; };
+		69B5FF8127A3F76200357054 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 69B5FF8027A3F76200357054 /* README.md */; };
+		69B5FF8427A3F95300357054 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 69B5FF8327A3F95300357054 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -165,6 +167,8 @@
 		6987326A2786E14B00408F0F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		6987326C2786E20000408F0F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6987326E2786E21300408F0F /* Topic_Swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topic_Swift.swift; sourceTree = "<group>"; };
+		69B5FF8027A3F76200357054 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		69B5FF8327A3F95300357054 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -347,6 +351,8 @@
 				696D409327982B8F006E0BFA /* CharlesProxy */,
 				696D409227982B82006E0BFA /* Fastlane */,
 				696D409C27982CA2006E0BFA /* Postman */,
+				69B5FF7F27A3F73A00357054 /* SonarQube */,
+				69B5FF8227A3F94000357054 /* SwiftLint */,
 				696D408D27982B2A006E0BFA /* Xcode */,
 			);
 			path = Tools;
@@ -546,6 +552,22 @@
 			path = Swift;
 			sourceTree = "<group>";
 		};
+		69B5FF7F27A3F73A00357054 /* SonarQube */ = {
+			isa = PBXGroup;
+			children = (
+				69B5FF8027A3F76200357054 /* README.md */,
+			);
+			path = SonarQube;
+			sourceTree = "<group>";
+		};
+		69B5FF8227A3F94000357054 /* SwiftLint */ = {
+			isa = PBXGroup;
+			children = (
+				69B5FF8327A3F95300357054 /* README.md */,
+			);
+			path = SwiftLint;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -652,6 +674,8 @@
 			files = (
 				696D40652795679A006E0BFA /* README.md in Resources */,
 				696D405227941D72006E0BFA /* README.md in Resources */,
+				69B5FF8127A3F76200357054 /* README.md in Resources */,
+				69B5FF8427A3F95300357054 /* README.md in Resources */,
 				696D408F27982B46006E0BFA /* README.md in Resources */,
 				6987326D2786E20000408F0F /* README.md in Resources */,
 				696D40A027982CCD006E0BFA /* README.md in Resources */,

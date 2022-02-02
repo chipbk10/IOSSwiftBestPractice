@@ -12,7 +12,7 @@ final class Topic_DependencyManager: TopicProtocol {
         topic.question1()
     }
     
-    // Question:
+    // Question: static library vs dynamic library
     // Answer:
     private func question1() {
         
