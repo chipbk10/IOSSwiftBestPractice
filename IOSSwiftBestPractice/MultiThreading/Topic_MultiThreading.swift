@@ -156,4 +156,10 @@ final class Topic_MultiThreading: TopicProtocol {
     private func question_9() {
         // how to use mutex: https://www.cocoawithlove.com/blog/2016/06/02/threads-and-mutexes.html        
     }
+    
+    // Question: What is `actor` used for?
+    // Answer: to solve `race conditions` problem
+    private func question_10() {
+        // [swift-actors](https://www.swiftbysundell.com/articles/swift-actors/)
+    }
 }
