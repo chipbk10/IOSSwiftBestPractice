@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6905B9AF27BBD2A30071B6EA /* Playground1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6905B9AE27BBD2A30071B6EA /* Playground1.swift */; };
+		6905B9B127BBD2C80071B6EA /* Playground2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6905B9B027BBD2C80071B6EA /* Playground2.swift */; };
 		69120C3927883AFE005A7420 /* Topic_MVVMC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69120C3827883AFE005A7420 /* Topic_MVVMC.swift */; };
 		69120C3F27884091005A7420 /* MVVM_Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69120C3E27884091005A7420 /* MVVM_Base.swift */; };
 		69120C41278840C1005A7420 /* MVVM_ScreenA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69120C40278840C1005A7420 /* MVVM_ScreenA.swift */; };
@@ -91,6 +93,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6905B9AE27BBD2A30071B6EA /* Playground1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playground1.swift; sourceTree = "<group>"; };
+		6905B9B027BBD2C80071B6EA /* Playground2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playground2.swift; sourceTree = "<group>"; };
 		69120C3627883AC0005A7420 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		69120C3827883AFE005A7420 /* Topic_MVVMC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topic_MVVMC.swift; sourceTree = "<group>"; };
 		69120C3E27884091005A7420 /* MVVM_Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_Base.swift; sourceTree = "<group>"; };
@@ -196,6 +200,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6905B9AD27BBD2910071B6EA /* actor */ = {
+			isa = PBXGroup;
+			children = (
+				6905B9AE27BBD2A30071B6EA /* Playground1.swift */,
+				6905B9B027BBD2C80071B6EA /* Playground2.swift */,
+			);
+			path = actor;
+			sourceTree = "<group>";
+		};
 		69120C3427883A94005A7420 /* Architecture */ = {
 			isa = PBXGroup;
 			children = (
@@ -531,6 +544,7 @@
 		6987325A2785C89F00408F0F /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				6905B9AD27BBD2910071B6EA /* actor */,
 				6987325B2785C8AC00408F0F /* Job.swift */,
 				6987325E2785C8D800408F0F /* Queues.swift */,
 				698732602785C8F100408F0F /* Semaphore.swift */,
@@ -727,6 +741,7 @@
 				69120C41278840C1005A7420 /* MVVM_ScreenA.swift in Sources */,
 				6987325F2785C8D800408F0F /* Queues.swift in Sources */,
 				69120C6027886C70005A7420 /* SimpleReact.swift in Sources */,
+				6905B9AF27BBD2A30071B6EA /* Playground1.swift in Sources */,
 				696D40752796D24B006E0BFA /* Topic_MemoryManagement.swift in Sources */,
 				69120C45278845EF005A7420 /* Topic_Architecture.swift in Sources */,
 				698732692785EB8600408F0F /* IdentityMap.swift in Sources */,
@@ -734,6 +749,7 @@
 				698731E727858C9000408F0F /* AppDelegate.swift in Sources */,
 				696D408C27982AE8006E0BFA /* Topic_Tools.swift in Sources */,
 				698732632785C92500408F0F /* AsyncSerialQueue.swift in Sources */,
+				6905B9B127BBD2C80071B6EA /* Playground2.swift in Sources */,
 				696D40A327984D20006E0BFA /* Topic_DependencyManager.swift in Sources */,
 				69120C5227884B03005A7420 /* Topic_UnitTest.swift in Sources */,
 				696D4104279C066F006E0BFA /* Topic_Hybrid.swift in Sources */,
