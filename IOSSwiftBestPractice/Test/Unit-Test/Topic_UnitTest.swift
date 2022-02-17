@@ -25,7 +25,7 @@ final class Topic_UnitTest: TopicProtocol {
     //         make a protocol that contains these method
     //         extend UIApplication to conform to that protocol
     //         now, we can mock / stub easily
-    private func question1() {
+    private func question2() {
         let urlOpener: URLOpening = UIApplication.shared
         let url: URL! = URL(string: "DummyURL")
         let app = OurApp_ToTestURLOpener(urlOpener: urlOpener, url: url)

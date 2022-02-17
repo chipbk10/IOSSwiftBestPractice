@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6905B9AF27BBD2A30071B6EA /* Playground1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6905B9AE27BBD2A30071B6EA /* Playground1.swift */; };
-		6905B9B127BBD2C80071B6EA /* Playground2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6905B9B027BBD2C80071B6EA /* Playground2.swift */; };
+		6905B9AF27BBD2A30071B6EA /* Actor_Playground1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6905B9AE27BBD2A30071B6EA /* Actor_Playground1.swift */; };
+		6905B9B127BBD2C80071B6EA /* Actor_Playground2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6905B9B027BBD2C80071B6EA /* Actor_Playground2.swift */; };
 		69120C3927883AFE005A7420 /* Topic_MVVMC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69120C3827883AFE005A7420 /* Topic_MVVMC.swift */; };
 		69120C3F27884091005A7420 /* MVVM_Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69120C3E27884091005A7420 /* MVVM_Base.swift */; };
 		69120C41278840C1005A7420 /* MVVM_ScreenA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69120C40278840C1005A7420 /* MVVM_ScreenA.swift */; };
@@ -21,40 +21,24 @@
 		69120C59278854FD005A7420 /* URLOpener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69120C58278854FD005A7420 /* URLOpener.swift */; };
 		69120C5E2788582C005A7420 /* URLOpenerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69120C5D2788582C005A7420 /* URLOpenerTests.swift */; };
 		69120C6027886C70005A7420 /* SimpleReact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69120C5F27886C70005A7420 /* SimpleReact.swift */; };
-		696D405227941D72006E0BFA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 696D405127941D72006E0BFA /* README.md */; };
 		696D405427941E10006E0BFA /* Topic_DesignPatterns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696D405327941E10006E0BFA /* Topic_DesignPatterns.swift */; };
-		696D4057279427AA006E0BFA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 696D4056279427AA006E0BFA /* README.md */; };
 		696D4059279427CF006E0BFA /* Topic_Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696D4058279427CF006E0BFA /* Topic_Network.swift */; };
-		696D406027943F32006E0BFA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 696D405F27943F32006E0BFA /* README.md */; };
 		696D406227943F45006E0BFA /* Topic_Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696D406127943F45006E0BFA /* Topic_Appearance.swift */; };
-		696D40652795679A006E0BFA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 696D40642795679A006E0BFA /* README.md */; };
 		696D4067279567A8006E0BFA /* Topic_Security.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696D4066279567A8006E0BFA /* Topic_Security.swift */; };
-		696D406E27957231006E0BFA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 696D406D27957231006E0BFA /* README.md */; };
 		696D407027957240006E0BFA /* Topic_Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696D406F27957240006E0BFA /* Topic_Storage.swift */; };
 		696D40732796D238006E0BFA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 696D40722796D238006E0BFA /* README.md */; };
 		696D40752796D24B006E0BFA /* Topic_MemoryManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696D40742796D24B006E0BFA /* Topic_MemoryManagement.swift */; };
-		696D408A27982AC8006E0BFA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 696D408927982AC8006E0BFA /* README.md */; };
 		696D408C27982AE8006E0BFA /* Topic_Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696D408B27982AE8006E0BFA /* Topic_Tools.swift */; };
-		696D408F27982B46006E0BFA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 696D408E27982B46006E0BFA /* README.md */; };
 		696D409127982B58006E0BFA /* Topic_Xcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696D409027982B58006E0BFA /* Topic_Xcode.swift */; };
 		696D409527982BC9006E0BFA /* Topic_Fastlane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696D409427982BC9006E0BFA /* Topic_Fastlane.swift */; };
-		696D409727982BF1006E0BFA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 696D409627982BF1006E0BFA /* README.md */; };
-		696D409927982C06006E0BFA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 696D409827982C06006E0BFA /* README.md */; };
 		696D409B27982C2C006E0BFA /* CharlesProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696D409A27982C2C006E0BFA /* CharlesProxy.swift */; };
 		696D409E27982CBF006E0BFA /* Topic_Postman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696D409D27982CBF006E0BFA /* Topic_Postman.swift */; };
-		696D40A027982CCD006E0BFA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 696D409F27982CCD006E0BFA /* README.md */; };
 		696D40A327984D20006E0BFA /* Topic_DependencyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696D40A227984D20006E0BFA /* Topic_DependencyManager.swift */; };
-		696D40A527984D33006E0BFA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 696D40A427984D33006E0BFA /* README.md */; };
 		696D40A82798ABEC006E0BFA /* Topic_UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696D40A72798ABEC006E0BFA /* Topic_UI.swift */; };
-		696D40AA2798ABFA006E0BFA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 696D40A92798ABFA006E0BFA /* README.md */; };
-		696D40AD2798AC3A006E0BFA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 696D40AC2798AC3A006E0BFA /* README.md */; };
 		696D40AF2798AC57006E0BFA /* Topic_TableCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696D40AE2798AC57006E0BFA /* Topic_TableCollectionView.swift */; };
 		696D40B22798AEF9006E0BFA /* Topic_SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696D40B12798AEF9006E0BFA /* Topic_SwiftUI.swift */; };
-		696D40B42798AF0A006E0BFA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 696D40B32798AF0A006E0BFA /* README.md */; };
 		696D40B72798AF5D006E0BFA /* Topic_AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696D40B62798AF5D006E0BFA /* Topic_AutoLayout.swift */; };
-		696D40B92798AF89006E0BFA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 696D40B82798AF89006E0BFA /* README.md */; };
 		696D4104279C066F006E0BFA /* Topic_Hybrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696D4103279C066F006E0BFA /* Topic_Hybrid.swift */; };
-		696D4106279C06DC006E0BFA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 696D4105279C06DC006E0BFA /* README.md */; };
 		698731E727858C9000408F0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698731E627858C9000408F0F /* AppDelegate.swift */; };
 		698731F027858C9400408F0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 698731EF27858C9400408F0F /* Assets.xcassets */; };
 		698731FE27858C9500408F0F /* IOSSwiftBestPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698731FD27858C9500408F0F /* IOSSwiftBestPracticeTests.swift */; };
@@ -69,10 +53,7 @@
 		698732652785C94100408F0F /* RecursiveSerialJobs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698732642785C94100408F0F /* RecursiveSerialJobs.swift */; };
 		698732672785C95C00408F0F /* LimitedConcurrentJobs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698732662785C95C00408F0F /* LimitedConcurrentJobs.swift */; };
 		698732692785EB8600408F0F /* IdentityMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698732682785EB8600408F0F /* IdentityMap.swift */; };
-		6987326D2786E20000408F0F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6987326C2786E20000408F0F /* README.md */; };
 		6987326F2786E21300408F0F /* Topic_Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6987326E2786E21300408F0F /* Topic_Swift.swift */; };
-		69B5FF8127A3F76200357054 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 69B5FF8027A3F76200357054 /* README.md */; };
-		69B5FF8427A3F95300357054 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 69B5FF8327A3F95300357054 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,8 +74,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6905B9AE27BBD2A30071B6EA /* Playground1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playground1.swift; sourceTree = "<group>"; };
-		6905B9B027BBD2C80071B6EA /* Playground2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playground2.swift; sourceTree = "<group>"; };
+		6905B9AE27BBD2A30071B6EA /* Actor_Playground1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actor_Playground1.swift; sourceTree = "<group>"; };
+		6905B9B027BBD2C80071B6EA /* Actor_Playground2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actor_Playground2.swift; sourceTree = "<group>"; };
 		69120C3627883AC0005A7420 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		69120C3827883AFE005A7420 /* Topic_MVVMC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topic_MVVMC.swift; sourceTree = "<group>"; };
 		69120C3E27884091005A7420 /* MVVM_Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_Base.swift; sourceTree = "<group>"; };
@@ -200,13 +181,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6905B9AD27BBD2910071B6EA /* actor */ = {
+		6905B9AD27BBD2910071B6EA /* Actor */ = {
 			isa = PBXGroup;
 			children = (
-				6905B9AE27BBD2A30071B6EA /* Playground1.swift */,
-				6905B9B027BBD2C80071B6EA /* Playground2.swift */,
+				6905B9AE27BBD2A30071B6EA /* Actor_Playground1.swift */,
+				6905B9B027BBD2C80071B6EA /* Actor_Playground2.swift */,
 			);
-			path = actor;
+			path = Actor;
 			sourceTree = "<group>";
 		};
 		69120C3427883A94005A7420 /* Architecture */ = {
@@ -544,7 +525,7 @@
 		6987325A2785C89F00408F0F /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				6905B9AD27BBD2910071B6EA /* actor */,
+				6905B9AD27BBD2910071B6EA /* Actor */,
 				6987325B2785C8AC00408F0F /* Job.swift */,
 				6987325E2785C8D800408F0F /* Queues.swift */,
 				698732602785C8F100408F0F /* Semaphore.swift */,
@@ -686,26 +667,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				696D40652795679A006E0BFA /* README.md in Resources */,
-				696D405227941D72006E0BFA /* README.md in Resources */,
-				69B5FF8127A3F76200357054 /* README.md in Resources */,
-				69B5FF8427A3F95300357054 /* README.md in Resources */,
-				696D408F27982B46006E0BFA /* README.md in Resources */,
-				6987326D2786E20000408F0F /* README.md in Resources */,
-				696D40A027982CCD006E0BFA /* README.md in Resources */,
-				696D406E27957231006E0BFA /* README.md in Resources */,
-				696D40B92798AF89006E0BFA /* README.md in Resources */,
-				696D40AD2798AC3A006E0BFA /* README.md in Resources */,
-				696D406027943F32006E0BFA /* README.md in Resources */,
-				696D409927982C06006E0BFA /* README.md in Resources */,
-				696D4057279427AA006E0BFA /* README.md in Resources */,
-				696D408A27982AC8006E0BFA /* README.md in Resources */,
-				696D40B42798AF0A006E0BFA /* README.md in Resources */,
-				696D4106279C06DC006E0BFA /* README.md in Resources */,
-				696D40A527984D33006E0BFA /* README.md in Resources */,
 				696D40732796D238006E0BFA /* README.md in Resources */,
-				696D40AA2798ABFA006E0BFA /* README.md in Resources */,
-				696D409727982BF1006E0BFA /* README.md in Resources */,
 				698731F027858C9400408F0F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -741,7 +703,7 @@
 				69120C41278840C1005A7420 /* MVVM_ScreenA.swift in Sources */,
 				6987325F2785C8D800408F0F /* Queues.swift in Sources */,
 				69120C6027886C70005A7420 /* SimpleReact.swift in Sources */,
-				6905B9AF27BBD2A30071B6EA /* Playground1.swift in Sources */,
+				6905B9AF27BBD2A30071B6EA /* Actor_Playground1.swift in Sources */,
 				696D40752796D24B006E0BFA /* Topic_MemoryManagement.swift in Sources */,
 				69120C45278845EF005A7420 /* Topic_Architecture.swift in Sources */,
 				698732692785EB8600408F0F /* IdentityMap.swift in Sources */,
@@ -749,7 +711,7 @@
 				698731E727858C9000408F0F /* AppDelegate.swift in Sources */,
 				696D408C27982AE8006E0BFA /* Topic_Tools.swift in Sources */,
 				698732632785C92500408F0F /* AsyncSerialQueue.swift in Sources */,
-				6905B9B127BBD2C80071B6EA /* Playground2.swift in Sources */,
+				6905B9B127BBD2C80071B6EA /* Actor_Playground2.swift in Sources */,
 				696D40A327984D20006E0BFA /* Topic_DependencyManager.swift in Sources */,
 				69120C5227884B03005A7420 /* Topic_UnitTest.swift in Sources */,
 				696D4104279C066F006E0BFA /* Topic_Hybrid.swift in Sources */,
