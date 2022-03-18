@@ -50,6 +50,11 @@
 - [iCode](https://www.youtube.com/c/iCode_Happy_Coding)
 
 ## Further Watching
+- [Mobile development best practice discussion](https://github.com/MobileNativeFoundation/discussions/discussions)
+- [Mocking API Calls in UI Tests](https://medium.com/trendyol-tech/mocking-api-calls-in-ui-tests-b908dbf6b305)
+- [The Different Types of Testing on Trendyol iOS App](https://bit.ly/3N6CNsW)
+- [A protocol for composition - iOS Conf SG 2016](https://bit.ly/3ilo3rI)
+- [Swift Language User Group](https://bit.ly/3N2biR7)
 
 
 
