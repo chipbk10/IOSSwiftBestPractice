@@ -20,4 +20,10 @@ final class Topic_MemoryManagement: TopicProtocol {
     }
     
     
+    // Question: How would you steer away from retain cycles when using closures?
+    // Answer: The closures capture and store the reference of an object, that can make a retain cycle, ... todo
+    private func question2() {
+        
+    }
+    
 }

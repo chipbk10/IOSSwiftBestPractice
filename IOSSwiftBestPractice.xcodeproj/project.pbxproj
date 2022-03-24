@@ -54,6 +54,7 @@
 		698732672785C95C00408F0F /* LimitedConcurrentJobs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698732662785C95C00408F0F /* LimitedConcurrentJobs.swift */; };
 		698732692785EB8600408F0F /* IdentityMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698732682785EB8600408F0F /* IdentityMap.swift */; };
 		6987326F2786E21300408F0F /* Topic_Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6987326E2786E21300408F0F /* Topic_Swift.swift */; };
+		69D4555827EB28BD00741B82 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 69D4555727EB28BD00741B82 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -154,6 +155,7 @@
 		6987326E2786E21300408F0F /* Topic_Swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topic_Swift.swift; sourceTree = "<group>"; };
 		69B5FF8027A3F76200357054 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		69B5FF8327A3F95300357054 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		69D4555727EB28BD00741B82 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -274,6 +276,14 @@
 				69120C58278854FD005A7420 /* URLOpener.swift */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		69147C0627EB1C2800D8741E /* CICD */ = {
+			isa = PBXGroup;
+			children = (
+				69D4555727EB28BD00741B82 /* README.md */,
+			);
+			path = CICD;
 			sourceTree = "<group>";
 		};
 		696D405027941D3E006E0BFA /* DesignPatterns */ = {
@@ -471,6 +481,7 @@
 				6987326A2786E14B00408F0F /* README.md */,
 				696D405E27943EFD006E0BFA /* Appearance */,
 				69120C3427883A94005A7420 /* Architecture */,
+				69147C0627EB1C2800D8741E /* CICD */,
 				696D40A127984C96006E0BFA /* DependencyManager */,
 				696D405027941D3E006E0BFA /* DesignPatterns */,
 				696D4102279C064E006E0BFA /* Hybrid */,
@@ -667,6 +678,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69D4555827EB28BD00741B82 /* README.md in Resources */,
 				696D40732796D238006E0BFA /* README.md in Resources */,
 				698731F027858C9400408F0F /* Assets.xcassets in Resources */,
 			);
