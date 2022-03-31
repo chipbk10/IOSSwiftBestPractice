@@ -162,4 +162,26 @@ final class Topic_MultiThreading: TopicProtocol {
     private func question_10() {
         // [swift-actors](https://www.swiftbysundell.com/articles/swift-actors/)
     }
+    
+    // Question1: What is difference between parameters `deadline` & `wallDeadline` of `DispatchQueue.asyncAfter`.
+    // Question2: How do they behave when the app is backgrounded?
+    // Answer1: `deadline` is the time according to the device clock, `wallDeadline` is the time according to the wall clock (real-time)
+    // Answer2: For `deadline` the time is paused, and continues after the app wakes up. 
+    // Answer2: For `wallDeadline` the time is not paused, but when `wallDeadline` runs out of time and the app is still in background, it is not able to execute. In this case, It will execute immediately once the app is foregrounded.
+    private func question_11() {
+        // [How DispatchQueue.asyncAfter behaves when application goes to background?](https://bit.ly/35oRzKk)
+        // [deadline vs wallDeadline](https://bit.ly/3ISDX7V)
+    }
+    
+    // Question: What happens if we perform a network call, then immediately background the app?
+    // Answer: when the app is backgrounded, the OS will kill all http requests from the app. 
+    // Answer: once the app is foregrounded, we will receive a failure result (like no network connection) for that network call.
+    // Answer: we can consider to perform the network call again in this case or show an error dialog on the screen.
+    private func question_12() {
+    }
+    
+    // Question: What happens if we perform a `Timer`, then background the app?
+    // Answer: todo
+    private func question_13() {
+        
 }
