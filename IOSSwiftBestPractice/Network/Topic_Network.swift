@@ -20,4 +20,10 @@ final class Topic_Network: TopicProtocol {
         // 429 Too Many Requests - the client reached the rate-limiting threshold.
         // 500 Internal Server Error - the client should use exponential back-off to retry a failed request.
     }
+    
+    // Question: you use a short polling mechanism to get the latest content from the server for a short time (like few minutes). During that time, if the app is backgrounded, the OS will close all Http requests from your app. When the app returns to the foreground, what will happen? The polling will continue or not? Any issue?
+    private func question2() {
+        // background mode task: https://www.raywenderlich.com/5817-background-modes-tutorial-getting-started
+        
+    }
 }
