@@ -26,4 +26,20 @@ final class Topic_MemoryManagement: TopicProtocol {
         
     }
     
+    // Question: class A has a strong reference on an array of objects, and each object is owned (also a strong reference) by other classes. How can you steer away from retain cycles?
+    // Answer: use WeakReference class to wrap up the value of each object. Class A will have a strong reference on an array of WeakReference objects
+    private func question3() {
+        class WeakReference<T: AnyObject> {
+            weak var value: T?
+        }
+    }
+    
+    // Question: `weak` reference vs `unowned` reference
+    // Answer: Like a weak reference, an unowned reference does not increment or decrement the reference count of an object.
+    // Answer: However, unlike a weak reference, the program guarantees to the Swift compiler that an unowned reference will not be nil when it is accessed.
+    private func question4() {
+        // todo
+        // example
+    }
+    
 }

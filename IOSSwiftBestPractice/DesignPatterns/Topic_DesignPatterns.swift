@@ -12,9 +12,11 @@ final class Topic_DesignPatterns: TopicProtocol {
         topic.question1()
     }
     
-    // Question:
-    // Answer:
+    // Question: Design a NotificationCenter
+    // Answer: use Observer & Listener pattern + WeakReference (to avoid memory leak)
     private func question1() {
-        // Todo
+        let vc = NotifCenterVC()
+        vc.viewWillAppear(true)
+        vc.viewWillDisappear(true)
     }        
 }

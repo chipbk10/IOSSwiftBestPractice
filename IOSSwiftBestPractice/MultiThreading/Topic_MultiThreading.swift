@@ -183,5 +183,5 @@ final class Topic_MultiThreading: TopicProtocol {
     // Question: What happens if we perform a `Timer`, then background the app?
     // Answer: todo
     private func question_13() {
-        
+    }
 }
