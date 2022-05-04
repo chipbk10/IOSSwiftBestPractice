@@ -6,6 +6,11 @@
 2) Question: SwiftUI
 - Answer: link_to_swift_ui
 
+3) Question: How do you present a non-breakable space in `UITextView` and `UILabel`?
+- Answer: in `Localizable.strings`, we use the capital `\U00A0`
+- Answer: in code, we use `\u{00a0}`
+- Source: https://bit.ly/3OQ11by, https://bit.ly/3OTycLu
+
 ## Sources
 
 ## Further Reading
