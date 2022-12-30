@@ -26,4 +26,9 @@ final class Topic_Network: TopicProtocol {
         // background mode task: https://www.raywenderlich.com/5817-background-modes-tutorial-getting-started
         
     }
+    
+    // Question: how do you parse a Data that you received from a network call to your app model?
+    private func question3() {
+        // Decodable & Codable: https://www.hackingwithswift.com/articles/119/codable-cheat-sheet    
+    }
 }
