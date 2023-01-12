@@ -1,7 +1,6 @@
 import Foundation
 import CommonCrypto
 
-
 extension Array where Element == CChar {
     
     init(hashSlice: UInt64) {
@@ -61,7 +60,6 @@ extension String {
         }
         return digestData
     }
-    
     
     var derivedDataHash: String {
         let pair = md5.uint64Pair
